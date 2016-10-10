@@ -6,12 +6,12 @@
 # ----------------------------------------------------------
 Problem: 
 - Name: unknown
-  Lower bound: 3.69
-  Upper bound: 3.69
+  Lower bound: 7.27
+  Upper bound: 7.27
   Number of objectives: 1
-  Number of constraints: 22
-  Number of variables: 38
-  Number of nonzeros: 765
+  Number of constraints: 27
+  Number of variables: 116
+  Number of nonzeros: 2439
   Sense: minimize
 # ----------------------------------------------------------
 #   Solver Information
@@ -21,10 +21,10 @@ Solver:
   Termination condition: optimal
   Statistics: 
     Branch and bound: 
-      Number of bounded subproblems: 43
-      Number of created subproblems: 43
+      Number of bounded subproblems: 113
+      Number of created subproblems: 113
   Error rc: 0
-  Time: 0.014382600784301758
+  Time: 0.014110803604125977
 # ----------------------------------------------------------
 #   Solution Information
 # ----------------------------------------------------------
@@ -36,8 +36,12 @@ Solution:
   Message: None
   Objective:
     cost:
-      Value: 3.69
+      Value: 7.2700000000000005
   Variable:
-    x[Big Macx]:
+    x[Fruit & Maple Oatmeal w/o Brown Sugar]:
+      Value: 2
+    x[Sprite]:
+      Value: 1
+    x[Fat Free Chocolate Milk Jug]:
       Value: 1
   Constraint: No values
